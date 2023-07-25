@@ -12,7 +12,7 @@ variable "tfc_vault_audience" {
 
 variable "tfc_hostname" {
   type        = string
-  default     = "app.terraform.io"
+  default     = "dani-tfe.tf-support.hashicorpdemo.com"
   description = "The hostname of the TFC or TFE instance you'd like to use with Vault"
 }
 
